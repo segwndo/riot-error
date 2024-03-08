@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.header {
+  margin: 0px 0px 11.3px;
+}
+
+.header > img {
+  display: flex;
+  align-items: baseline;
+  justify-content: start;
+  background-color: transparent;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./assets/wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  position: relative;
+  background-repeat: no-repeat;
+  padding: 34px 50px;
+}
+
+.card {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  width: 576px;
+  height: 702px;
+  background-color: #f9f9f9;
+  margin: auto;
+}
+
+.text {
+  padding: 101.6px 67.7px 67.7px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo > img {
+  width: 203.3px;
+  height: 57.7px;
+  margin: 11.3px 33.8px 33.8px 0px;
+}
+
+.login-title1 {
+  color: #111111;
+  font-size: 35.3px;
+}
+
+.login-title2 {
+  color: #7a7a7a;
+  font-size: 28.3px;
+  font-weight: 500;
+  margin: 22.6px 0px 0px;
+}
+.nada{
+  width: 440.5px;
+  height: 302px;
+}
