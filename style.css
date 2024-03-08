@@ -78,7 +78,7 @@ body {
   body {
     background-image: url('./assets/wallpaper-mobile.jpg');
     padding: 10px;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .header {
